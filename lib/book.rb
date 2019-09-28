@@ -3,7 +3,7 @@ class Book
   attr_reader :title, :genre 
   
   
-  GENRES = ["Thriller", "Science"]
+  GENRES = []
 
   def initialize(title)
     @title = title
